@@ -1,0 +1,70 @@
+h1 {
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* mobile_device (320px-480px) */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        background-color: blueviolet;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -14px;
+        width: 100%;
+    }
+    li a {
+        margin-top: 15px;
+        text-decoration: none;
+        color: rgb(255, 246, 246);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+        background-color: darkolivegreen;
+        width: 100%;
+        text-align: center;
+    }
+    li a:hover {
+        color: darkred;
+        background-color: darkslategray;
+    }
+}
+
+
+/* ipads,tablets  (480px-768px)*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        background-color: crimson;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        background-color: darkblue;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    h1 {
+        background-color: rgb(216, 182, 202);
+    }
+}
